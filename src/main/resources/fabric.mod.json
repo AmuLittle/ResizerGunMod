@@ -8,8 +8,8 @@
 		"Amu Little"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/AmuLittle",
+		"sources": "https://github.com/AmuLittle/ResizerGunMod"
 	},
 	"license": "MIT",
 	"icon": "assets/resizer_gun/icon.png",
@@ -36,7 +36,5 @@
 		"fabric-api": "*",
 		"pehkui": ">=3.8.3"
 	},
-	"suggests": {
-		"another-mod": "*"
-	}
+	"suggests": {}
 }
