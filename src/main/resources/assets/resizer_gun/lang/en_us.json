@@ -1,0 +1,10 @@
+{
+    "itemGroup.resizer_gun.resizer_group": "Resizer Gun Mod",
+    "item.resizer_gun.resizer_gun": "Resizer Gun",
+    "item.resizer_gun.resizer_gun.tooltip0": "Crouch while holding to check",
+    "item.resizer_gun.resizer_gun.tooltip1": "current resize effect.",
+    "item.resizer_gun.resizer_gun.tooltip2": "Use the scroll wheel while", 
+    "item.resizer_gun.resizer_gun.tooltip3": "crouching and holding to change",
+    "item.resizer_gun.resizer_gun.tooltip4": "current resize effect.",
+    "entity.resizer_gun.resizer_projectile": "Resizer Gun Projectile"
+}

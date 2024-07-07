@@ -1,0 +1,100 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "resizer_gun:item/resizer_gun/resizer_gun",
+		"particle": "resizer_gun:item/resizer_gun/resizer_gun"
+	},
+	"elements": [
+		{
+			"name": "Back Ring",
+			"from": [6, 7, 5],
+			"to": [10, 11, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 7, 5]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"east": {"uv": [5, 3.5, 5.5, 5.5], "texture": "#0"},
+				"south": {"uv": [0, 2, 2, 4], "texture": "#0"},
+				"west": {"uv": [4, 5, 4.5, 7], "texture": "#0"},
+				"up": {"uv": [7.5, 4, 5.5, 3.5], "texture": "#0"},
+				"down": {"uv": [7.5, 4, 5.5, 4.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Front Ring",
+			"from": [6, 7, 3],
+			"to": [10, 11, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 7, 3]},
+			"faces": {
+				"north": {"uv": [2, 0, 4, 2], "texture": "#0"},
+				"east": {"uv": [4.5, 5, 5, 7], "texture": "#0"},
+				"south": {"uv": [2, 2, 4, 4], "texture": "#0"},
+				"west": {"uv": [5.5, 4.5, 6, 6.5], "texture": "#0"},
+				"up": {"uv": [8, 1.5, 6, 1], "texture": "#0"},
+				"down": {"uv": [8, 1.5, 6, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Handle",
+			"from": [7, 4, 10],
+			"to": [9, 9, 12],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [7, 4, 10]},
+			"faces": {
+				"north": {"uv": [1, 5, 2, 7.5], "texture": "#0"},
+				"east": {"uv": [5, 1, 6, 3.5], "texture": "#0"},
+				"south": {"uv": [2, 5, 3, 7.5], "texture": "#0"},
+				"west": {"uv": [3, 5, 4, 7.5], "texture": "#0"},
+				"up": {"uv": [7, 3, 6, 2], "texture": "#0"},
+				"down": {"uv": [7, 4.5, 6, 5.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Barrel",
+			"from": [7, 8, 2],
+			"to": [9, 10, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9, 9]},
+			"faces": {
+				"north": {"uv": [6, 5.5, 7, 6.5], "texture": "#0"},
+				"east": {"uv": [0, 4, 4, 5], "texture": "#0"},
+				"south": {"uv": [5, 6.5, 6, 7.5], "texture": "#0"},
+				"west": {"uv": [4, 0, 8, 1], "texture": "#0"},
+				"up": {"uv": [5, 5, 4, 1], "texture": "#0"},
+				"down": {"uv": [1, 5, 0, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hammer",
+			"from": [7.5, 9, 9.5],
+			"to": [8.5, 11, 10.5],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 10, 10]},
+			"faces": {
+				"north": {"uv": [5, 5.5, 5.5, 6.5], "texture": "#0"},
+				"east": {"uv": [6, 6.5, 6.5, 7.5], "texture": "#0"},
+				"south": {"uv": [6.5, 6.5, 7, 7.5], "texture": "#0"},
+				"west": {"uv": [7, 2, 7.5, 3], "texture": "#0"},
+				"up": {"uv": [6.5, 3.5, 6, 3], "texture": "#0"},
+				"down": {"uv": [7, 3, 6.5, 3.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [90, -50, 90],
+			"translation": [-0.5, -0.5, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"rotation": [90, 50, -90],
+			"translation": [0.5, -0.5, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "Gun",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		}
+	]
+}
