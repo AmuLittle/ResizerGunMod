@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "R I",
+        "IN ",
+        "O  "
+    ],
+    "key": {
+        "R": {
+            "item": "minecraft:redstone_torch"
+        },
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "result": {
+        "id": "resizer_gun:resizer_gun",
+        "count": 1
+    }
+}

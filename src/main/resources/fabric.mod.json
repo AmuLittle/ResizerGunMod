@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "resizer_gun",
+	"version": "${version}",
+	"name": "Resizer Gun",
+	"description": "Adds craftable resizing equipment to minecraft using pehkui.",
+	"authors": [
+		"Amu Little"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/resizer_gun/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.github.amulittle.ResizerGunMod"
+		],
+		"client": [
+			"com.github.amulittle.ResizerGunModClient"
+		]
+	},
+	"mixins": [
+		"resizer_gun.mixins.json",
+		{
+			"config": "resizer_gun.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*",
+		"pehkui": ">=3.8.3"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
