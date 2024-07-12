@@ -27,7 +27,9 @@ L item/
 L entity/
 |   L Entity Definitions
 L register/
-    L Register Definitions
+|   L Register Definitions
+L util/
+    L Utility Definitions
 ```
 # Client Mod Structure
 - Root is src/client/java/com/github/amulittle/resizer_gun/client/
