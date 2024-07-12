@@ -1,4 +1,7 @@
-package com.github.amulittle;
+package com.github.amulittle.resizer_gun.client;
+
+import com.github.amulittle.resizer_gun.client.entity.resizer_projectile.ResizerProjectileRenderer;
+import com.github.amulittle.resizer_gun.register.EntityRegister;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;

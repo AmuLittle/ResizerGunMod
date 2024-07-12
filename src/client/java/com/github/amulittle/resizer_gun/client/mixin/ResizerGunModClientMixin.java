@@ -1,12 +1,12 @@
-package com.github.amulittle.mixin.client;
+package com.github.amulittle.resizer_gun.client.mixin;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-import com.github.amulittle.ItemRegister;
-import com.github.amulittle.event.RequestResizeEffectChange;
+import com.github.amulittle.resizer_gun.packet.RequestResizeEffectChange;
+import com.github.amulittle.resizer_gun.register.ItemRegister;
 
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.minecraft.client.MinecraftClient;

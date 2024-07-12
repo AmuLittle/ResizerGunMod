@@ -1,4 +1,4 @@
-package com.github.amulittle.mixin;
+package com.github.amulittle.resizer_gun.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

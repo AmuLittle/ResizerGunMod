@@ -1,6 +1,6 @@
-package com.github.amulittle.event;
+package com.github.amulittle.resizer_gun.packet;
 
-import com.github.amulittle.ResizerGunMod;
+import com.github.amulittle.resizer_gun.ResizerGunMod;
 
 import net.minecraft.network.PacketByteBuf;
 import net.minecraft.network.packet.CustomPayload;

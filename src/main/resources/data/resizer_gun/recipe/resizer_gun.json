@@ -1,8 +1,8 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "R I",
-        "IN ",
+        "RTY",
+        "INI",
         "O  "
     ],
     "key": {
@@ -17,6 +17,12 @@
         },
         "O": {
             "item": "minecraft:obsidian"
+        },
+        "T": {
+            "item": "minecraft:red_stained_glass"
+        },
+        "Y": {
+            "item": "minecraft:light_blue_stained_glass"
         }
     },
     "result": {

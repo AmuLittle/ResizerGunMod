@@ -1,4 +1,7 @@
-package com.github.amulittle;
+package com.github.amulittle.resizer_gun.register;
+
+import com.github.amulittle.resizer_gun.ResizerGunMod;
+import com.github.amulittle.resizer_gun.entity.ResizerProjectile;
 
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;

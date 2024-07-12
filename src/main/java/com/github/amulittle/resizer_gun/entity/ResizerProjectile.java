@@ -1,7 +1,9 @@
-package com.github.amulittle;
+package com.github.amulittle.resizer_gun.entity;
 
 import virtuoel.pehkui.api.ScaleData;
 import virtuoel.pehkui.api.ScaleTypes;
+
+import com.github.amulittle.resizer_gun.register.ItemRegister;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
@@ -71,7 +73,7 @@ public class ResizerProjectile extends PersistentProjectileEntity {
         return this.dataTracker.get(TRACKED_RESIZE_EFFECT);
     }
 
-    protected void setResizeEffect(Float f) {
+    public void setResizeEffect(Float f) {
         this.dataTracker.set(TRACKED_RESIZE_EFFECT, f);
     }
 }

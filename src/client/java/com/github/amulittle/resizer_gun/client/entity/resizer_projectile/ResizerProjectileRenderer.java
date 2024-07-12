@@ -1,4 +1,7 @@
-package com.github.amulittle;
+package com.github.amulittle.resizer_gun.client.entity.resizer_projectile;
+
+import com.github.amulittle.resizer_gun.ResizerGunMod;
+import com.github.amulittle.resizer_gun.entity.ResizerProjectile;
 
 import net.minecraft.client.render.entity.EntityRendererFactory;
 import net.minecraft.client.render.entity.ProjectileEntityRenderer;

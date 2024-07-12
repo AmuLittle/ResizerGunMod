@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.github.amulittle.ResizerGunMod"
+			"com.github.amulittle.resizer_gun.ResizerGunMod"
 		],
 		"client": [
-			"com.github.amulittle.ResizerGunModClient"
+			"com.github.amulittle.resizer_gun.client.ResizerGunModClient"
 		]
 	},
 	"mixins": [

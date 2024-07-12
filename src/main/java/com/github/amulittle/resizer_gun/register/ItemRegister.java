@@ -1,4 +1,7 @@
-package com.github.amulittle;
+package com.github.amulittle.resizer_gun.register;
+
+import com.github.amulittle.resizer_gun.ResizerGunMod;
+import com.github.amulittle.resizer_gun.item.ResizerGun;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.Item;

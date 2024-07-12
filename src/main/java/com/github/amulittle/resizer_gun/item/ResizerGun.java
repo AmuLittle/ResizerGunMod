@@ -1,9 +1,12 @@
-package com.github.amulittle;
+package com.github.amulittle.resizer_gun.item;
 
 import virtuoel.pehkui.api.ScaleData;
 import virtuoel.pehkui.api.ScaleTypes;
 
 import java.util.List;
+
+import com.github.amulittle.resizer_gun.entity.ResizerProjectile;
+import com.github.amulittle.resizer_gun.register.EntityRegister;
 
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.NbtComponent;

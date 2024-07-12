@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "com.github.amulittle.mixin.client",
+	"package": "com.github.amulittle.resizer_gun.client.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
 		"ResizerGunModClientMixin"

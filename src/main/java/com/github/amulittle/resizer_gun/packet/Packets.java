@@ -1,6 +1,7 @@
-package com.github.amulittle;
+package com.github.amulittle.resizer_gun.packet;
 
-import com.github.amulittle.event.RequestResizeEffectChange;
+import com.github.amulittle.resizer_gun.item.ResizerGun;
+import com.github.amulittle.resizer_gun.register.ItemRegister;
 
 import net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
