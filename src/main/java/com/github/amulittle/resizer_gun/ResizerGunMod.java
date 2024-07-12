@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.github.amulittle.resizer_gun.packet.Packets;
+import com.github.amulittle.resizer_gun.register.BlockRegister;
 import com.github.amulittle.resizer_gun.register.EntityRegister;
 import com.github.amulittle.resizer_gun.register.ItemRegister;
 
@@ -23,6 +24,7 @@ public class ResizerGunMod implements ModInitializer {
 		// Proceed with mild caution.
 		Packets.initialize();
 		ItemRegister.initialize();
+		BlockRegister.initialize();
 		EntityRegister.initialize();
 	}
 }

@@ -30,6 +30,7 @@ public class ItemRegister {
         .displayName(Text.translatable("itemGroup.resizer_gun.resizer_group"))
         .entries((context, entries) -> {
             entries.add(RESIZER_GUN);
+            entries.add(BlockRegister.RESIZER_BLOCK.item);
         })
         .build();
 
