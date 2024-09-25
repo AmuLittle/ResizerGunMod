@@ -25,6 +25,8 @@ public class ItemRegister {
 
     public static final Item RESIZER_GUN = register(new ResizerGun(new Item.Settings().maxCount(1)), "resizer_gun");
 
+    public static final Item RESIZE_INSULATOR_DETECTOR = register(new Item(new Item.Settings()), "resize_insulator_detector");
+
     public static final ItemGroup RESIZER_GROUP = FabricItemGroup.builder()
         .icon(() -> new ItemStack(RESIZER_GUN))
         .displayName(Text.translatable("itemGroup.resizer_gun.resizer_group"))
